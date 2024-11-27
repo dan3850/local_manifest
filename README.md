@@ -2,8 +2,7 @@
 
 Starting:
 ---------
-    curl https://raw.githubusercontent.com/rogers2602/local_manifest/main/extras.xml > .repo/local_manifests/extras.xml
-    curl https://raw.githubusercontent.com/rogers2602/local_manifest/main/motorola.xml > .repo/local_manifests/motorola.xml
-    curl https://raw.githubusercontent.com/rogers2602/local_manifest/main/gitlab.xml > .repo/local_manifests/gitlab.xml
+    curl https://raw.githubusercontent.com/dan3850/local_manifest/main/extras.xml > .repo/local_manifests/extras.xml
+    curl https://raw.githubusercontent.com/dan3850/local_manifest/blame/main/lmi.xml > .repo/local_manifests/lmi.xml
+    curl https://raw.githubusercontent.com/dan3850/local_manifest/blob/main/gitlab.xml > .repo/local_manifests/gitlab.xml
     repo sync
-
