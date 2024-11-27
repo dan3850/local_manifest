@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- device trees -->
+  <!-- Remover repositórios conflitantes do manifest oficial -->
+  <remove-project path="device/xiaomi/lmi" />
+  <remove-project path="device/xiaomi/sm8250-common" />
+  <remove-project path="vendor/xiaomi/sm8250-common" />
+  <remove-project path="vendor/xiaomi/lmi" />
+  <remove-project path="kernel/xiaomi/sm8250" />
+
+  <!-- Seus repositórios customizados -->
   <project name="dan3850/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-21"/>
   <project name="dan3850/android_device_xiaomi_lmi" path="device/xiaomi/lmi" remote="github" revision="lineage-21"/>
   
@@ -10,5 +17,4 @@
   <!-- vendor -->
   <project name="dan3850/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-21"/>
   <project name="dan3850/proprietary_vendor_xiaomi_lmi" path="vendor/xiaomi/lmi" remote="github" revision="lineage-21"/>
-  
 </manifest>
