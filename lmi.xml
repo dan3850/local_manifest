@@ -5,7 +5,7 @@
   <project name="dan3850/android_device_xiaomi_lmi" path="device/xiaomi/lmi" remote="github" revision="lineage-21"/>
   
   <!-- kernel -->
-  <project name="dan3850/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/lmi" remote="github" revision="lineage-21"/>
+  <project name="dan3850/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github" revision="lineage-21"/>
 
   <!-- vendor -->
   <project name="dan3850/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-21"/>
